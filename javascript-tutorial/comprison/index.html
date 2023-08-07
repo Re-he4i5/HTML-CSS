@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>Comprison</title>
+  </head>
+  <body>
+    <h1>Comprison</h1>
+    a: <input id="a" type="text" value="1" /><br />
+    b: <input id="b" type="text" value="3" /><br />
+
+    <button onclick="compare()">Compare</button>
+
+    <ul id="result">
+      <li>a==b: <span id="result-equal"></span></li>
+      <li>a!=b: <span id="result-not-equal"></span></li>
+      <li>a&lt;b: <span id="result-less-than"></span></li>
+      <li>a&gt;b: <span id="result-greater-than"></span></li>
+      <li>a&lt;=b: <span id="result-less-than-or-equal"></span></li>
+      <li>a&gt;=b: <span id="result-greater-than-or-equal"></span></li>
+    </ul>
+  </body>
+</html>
